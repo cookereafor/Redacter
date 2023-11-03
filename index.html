@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Redactor</title>
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Text Redactor</h1>
+      <textarea
+        id="text-input"
+        placeholder="Type or Paste your text here"
+      ></textarea>
+      <textarea
+        id="redact-input"
+        placeholder="Enter words to redact (comma-separated)"
+      ></textarea>
+      <button id="redact-button">Redact</button><br />
+      <textarea id="redacted-text"></textarea>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
